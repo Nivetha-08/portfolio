@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../public/NivethaResume.pdf';
+// import resume from '../../public/NivethaResume.pdf';
 
 const Home = () => {
   
@@ -75,7 +75,7 @@ const Home = () => {
                                          I'm always eager to learn new technologies and continuously improve my skills to build better, faster, and more intuitive web applications. 
               </p>
               {/* <button className="button" style={{border:"none"}}>Download CV</button> */}
-              <a href={resume} download="Nivetha-Resume.pdf" className='btn btn-primary'>Download CV</a>
+              <a href="/NivethaResume.pdf" download="Nivetha-Resume.pdf" className='btn btn-primary'>Download CV</a>
             </div>
           </div>
         </section>
