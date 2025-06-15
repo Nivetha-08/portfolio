@@ -41,7 +41,8 @@ const Home = () => {
           <div className="home__social">
             {/* <a href="#" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
             <a href="#" className="home__social-icon"><i className='bx bxl-behance'></i></a> */}
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nivethamaniofficial@gmail.com" className="home__social-icon"><i className='bx bx-envelope'></i></a>
+            {/* <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nivethamaniofficial@gmail.com" className="home__social-icon"><i className='bx bx-envelope'></i></a> */}
+            <a href="mailto:nivethamaniofficial@gmail.com" className="home__social-icon"><i className='bx bx-envelope'></i></a>
             <a href="https://github.com/Nivetha-08" className="home__social-icon"><i className='bx bxl-github'></i></a>
             <a href="https://t.me/NivethaMani" className="home__social-icon"><i className='bx bxl-telegram'></i></a>
           </div>
@@ -68,13 +69,13 @@ const Home = () => {
             </div>
             <div>
               <h2 className="about__subtitle">I'm Nivetha</h2>
-              <p className="about__text">I'm a dedicated front-end developer with one year of experience building responsive and user-friendly web interfaces. 
+              <p className="about__text">I'm a dedicated <b>Front-End Developer with one year of experience</b> building responsive and user-friendly web interfaces. 
                                          I have a strong foundation in HTML, CSS, JavaScript, TypeScript and React, and I enjoy turning complex problems into simple, interactive solutions. 
                                          My work focuses on creating clean and accessible user experience, interacting API's and ensuring seamless performance across devices and browsers. 
                                          I'm always eager to learn new technologies and continuously improve my skills to build better, faster, and more intuitive web applications. 
               </p>
               {/* <button className="button" style={{border:"none"}}>Download CV</button> */}
-              <a href={resume} download={resume} className='btn btn-primary'>Download CV</a>
+              <a href={resume} download="Nivetha-Resume.pdf" className='btn btn-primary'>Download CV</a>
             </div>
           </div>
         </section>
