@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../public/assets/img/NiviResume.pdf';
+import resume from '../../public/NivethaResume.pdf';
 
 const Home = () => {
   
@@ -69,7 +69,7 @@ const Home = () => {
             <div>
               <h2 className="about__subtitle">I'm Nivetha</h2>
               <p className="about__text">I'm a dedicated front-end developer with one year of experience building responsive and user-friendly web interfaces. 
-                                         I have a strong foundation in HTML, CSS, JavaScript, and React, and I enjoy turning complex problems into simple, interactive solutions. 
+                                         I have a strong foundation in HTML, CSS, JavaScript, TypeScript and React, and I enjoy turning complex problems into simple, interactive solutions. 
                                          My work focuses on creating clean and accessible user experience, interacting API's and ensuring seamless performance across devices and browsers. 
                                          I'm always eager to learn new technologies and continuously improve my skills to build better, faster, and more intuitive web applications. 
               </p>
@@ -100,7 +100,7 @@ const Home = () => {
             {/* <div>
               <img src="/assets/img/work3.jpg" alt="Skills" className="skills__img" />
             </div> */}
-            <div>
+            <div> 
               {/* <h2 className="skills__subtitle">Professional Skills</h2> */}
               {/* <p className="skills__text">Lorem ipsum dolor sit amet...</p> */}
               {["REACT","REDUX","GIT","GITHUB"].map((skill, index) => (
