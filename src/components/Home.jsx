@@ -9,7 +9,7 @@ const Home = () => {
       const message = document.querySelector('.cmsg').value
 
       if(name && email && message ){
-        const mailtoLink = `mailto:mail2vasanthofficial@gmail.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+        const mailtoLink = `mailto:nivethamaniofficial@gmail.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
         window.location.href = mailtoLink
       }
     }
@@ -199,9 +199,9 @@ const Home = () => {
           <h2 className="section-title">Contact</h2>
           <div className="contact__container bd-grid">
             <form className="contact__form" action="https://formsubmit.co/nivethamaniofficial@gmail.com" method="POST">
-              <input type="text" placeholder="Name" className="contact__input" name="name" required/>
-              <input type="email" placeholder="Email" className="contact__input" name="email" required/>
-              <textarea cols="0" rows="10" className="contact__input" name="message" required></textarea>
+              <input type="text" placeholder="Name" className="contact__input cname" name="name" required/>
+              <input type="email" placeholder="Email" className="contact__input cmail" name="email" required/>
+              <textarea cols="0" rows="10" className="contact__input cmsg" name="message" required></textarea>
               {/* <input type="submit" value="Send" className="contact__button button"/> */}
               {/* <button className="btn btn-primary px-4" id="cbtn" onClick={sendMain} type="submit">Send</button> */}
               <div className="d-flex justify-content-end">
